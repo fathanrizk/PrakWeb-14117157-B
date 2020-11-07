@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>tugas1</title>
+    <link rel="stylesheet" href="tugas1.css">
+    <style media="screen">
+      .kolom1{
+        float: left;
+        width: 197px;
+        height: 255px;
+        border-left: 3px solid;
+        border-right: 3px solid;
+        background-color: #ffff01;
+      }
+      li{
+        margin: 4px;
+      }
+      .kolom2{
+        float: left;
+        width: 584px;
+        height: auto;
+        border-right: 3px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <img src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/html-1024x341.png" style="width: 784px; height: 200px;">
+    </header>
+    <div class="kolom1" style="background-color: #ffff01;">
+      <ul>
+        <li><a href="#">Beranda</a></li>
+        <li><a href="#">Data Peserta</a></li>
+        <li><a href="#">HTML</a></li>
+        <li><a href="#">JAVA</a></li>
+        <li><a href="#">C++</a></li>
+        <li><a href="#">JavaScript</a></li>
+        <li><a href="#">C</a></li>
+      </ul>
+    </div>
+    <div class="kolom2" style="background-color: #d99896; padding-bottom: 6px;">
+      <p>HTML atau Hypertext Markup Language adalah sebuah bahasa markup yang berfungsi sebagai kerangka dari sebuah website. Jadi disini
+        saya ingin membuka pendaftaran kelas online untuk kita dapat belajar bersama dalam membangun sebuah website dengan HTML. Silahkan daftarkan dirimu pada form dibawah ini!
+      </p>
+      <p style="font-weight: bold; text-align: center;">Form Pendaftaran</p>
+      <form action="data.php" method="post">
+      <p>
+        <label>Nama: </label>
+        <input type="text" name="nama" placeholder="Nama Lengkap">
+      </p>
+      <p>
+        <label>Asal: </label>
+        <input type="text" name="asal" placeholder="Asal Daerah">
+      </p><p>
+        <label>Pekerjaan: </label>
+        <input type="text" name="umur" placeholder="Pekerjaan">
+        <input type="submit" name="submit" value="submit" style="margin: 0 30px;">
+      </p>
+    </div>
+    <footer>
+      <p style="text-align: center;">&copy; 2020 FathanRikiHidayah_14117157</p>
+    </footer>
+  </body>
+</html>
