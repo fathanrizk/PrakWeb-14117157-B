@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<dataDiri>
+    <nama>
+        <awal>Fathan Rizki</awal>
+        <akhir>Hidayah</akhir>
+    </nama>
+    
+    <jeniskelamin>Laki-laki</jeniskelamin>
+
+    <alamat>
+        <kabupaten>Lampung Tengah</kabupaten>
+        <provinsi>Lampung</provinsi>
+        <negara>Indonesia</negara>
+    </alamat>
+
+    <sosialMedia>
+        <github>fathanrizk</github>
+        <instagram>fathanrizk</instagram>
+    </sosialMedia>
+</dataDiri>

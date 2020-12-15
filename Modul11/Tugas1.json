@@ -1,0 +1,16 @@
+{
+    "nama": {
+        "awal": "Fathan Rizki",
+        "akhir": "Hidayah"
+    },
+    "jeniskelamin": "Laki-laki",
+    "alamat": {
+        "kabupaten": "Lampung Tengah",
+        "provinsi": "Lampung",
+        "negara": "Indonesia"
+    },
+    "sosialMedia": {
+        "github": "fathanrizk",
+        "instagram": "fathanrizk"
+    }
+}
